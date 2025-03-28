@@ -20,3 +20,6 @@ Factor: i32 = {
 };
 
 Num: i32 = <s:r"[0-9]+"> => i32::from_str(s).unwrap();
+
+// Nous construirons l'AST manuellement dans le code principal
+// au lieu d'utiliser un parser LALRPOP séparé
