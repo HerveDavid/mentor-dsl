@@ -1,0 +1,11 @@
+[package]
+name = "mentor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lalrpop-util = { version = "0.22.1", features = ["lexer"] }
+rowan = { version = "0.16.1", features = ["serde"] }
+
+[build-dependencies]
+lalrpop = "0.22.1"
